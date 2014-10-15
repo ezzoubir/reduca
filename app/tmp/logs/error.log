@@ -1,0 +1,18 @@
+2014-10-14 16:49:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /regala/images/pick-res-menu-right.png
+Stack Trace:
+#0 C:\wamp\www\regala\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-14 16:49:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /regala/images/stick-lbl.png?v=0.1121989
+Stack Trace:
+#0 C:\wamp\www\regala\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
