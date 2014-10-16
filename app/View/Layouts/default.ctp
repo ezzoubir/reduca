@@ -86,18 +86,16 @@
                         <div class="mod-register">
                             <h3 class="rs title-mod">Hello pretty! Welcome to Couponday.com</h3>
                             <div class="wrap-form-reg clearfix">
-                                <form action="#">
+                                <form action="users/login" method="post">
                                     <div class="left-form">
                                         <label class="wrap-txt" for="sys_email">
-                                            <input class="input-txt" id="sys_email" placeholder="you@mail.com" type="email">
+                                            <input class="input-txt" id="sys_email" placeholder="you@mail.com" name="username" type="email">
                                         </label>
                                         <label class="wrap-txt" for="sys_pass">
-                                            <input class="input-txt" id="sys_pass" placeholder="password please!" type="password">
+                                            <input class="input-txt" id="sys_pass" placeholder="password please!" name="password" type="password">
                                         </label>
                                         <label class="wrap-check" for="sys_chk_news">
-                                            <input id="sys_chk_news" class="input-chk" type="checkbox"> Remember me
-                                            <i class="icon iUncheck"></i>
-                                            <a class="lost-pass" href="#">Forgot password ?</a>
+                                            <a class="lost-pass" href="#">Mot de passe oublié ?</a>
                                         </label>
                                         <div class="wrap-login-btn">
                                             <button class="btn-flat gr btn-submit-reg" type="submit">Login</button>
@@ -293,6 +291,7 @@ promotions from Coupons.com. Enter in an email and a password or sign up
                     <div class="block-content list-coupon clearfix">
                         <div class="coupon-item grid_3">
                             <div class="coupon-content">
+                            <?php echo $this->fetch('content'); ?>
                                 <div class="img-thumb-center">
                                     <div class="wrap-img-thumb">
                                         <span class="ver_hold"></span>
