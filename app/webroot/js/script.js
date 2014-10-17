@@ -17,3 +17,4 @@ var t=$("#sys_mod_filter");if(t.length>0){var n=$("#sys_mod_filter").offset().to
 //var o=$("#container_list_link");if(o.length>0){o.masonry({itemSelector:".grp-by-alpha"})}
 
 var u=$("#sys_list_related_post");if(u.length>0){$("#sys_prev_replated_page").on("click",function(){var e=u.attr("data-paging");var t=u.attr("data-total-page");if(e==1)e=t;else e--;u.attr("data-paging",e);a(e);return false});$("#sys_next_replated_page").on("click",function(){var e=u.attr("data-paging");var t=u.attr("data-total-page");if(e==t)e=1;else e++;u.attr("data-paging",e);a(e);return false})}})
+

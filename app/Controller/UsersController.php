@@ -46,6 +46,7 @@ class UsersController extends AppController {
     }
 
     
+    public function login() {
 	public function login() {
 	    if ($this->request->data) {
 	        if ($this->Auth->login()) {
